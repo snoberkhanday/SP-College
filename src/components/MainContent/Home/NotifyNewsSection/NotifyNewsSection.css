@@ -1,0 +1,58 @@
+.news-list {
+  list-style-image: url("../../../../../public/images/calender-check.svg");
+  max-height: 340px;
+  overflow: auto;
+  padding-right: 5px;
+}
+.news-list li {
+  margin-bottom: 10px;
+}
+.news-list li a {
+  color: inherit;
+  text-align: justify;
+  position: relative;
+}
+
+.date-of-news {
+  font-size: 0.8rem;
+  text-align: right;
+  color: #a09a9a;
+  font-style: italic;
+}
+a[data-new]:after {
+  color: #fff;
+  background: #d62518;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 0 3px 2px;
+  position: absolute;
+  border-radius: 2px;
+  white-space: nowrap;
+  content: attr(data-new);
+  border-bottom-left-radius: 0;
+  margin-left: 2px;
+  animation: blinker 1s linear infinite;
+}
+p[data-new]:after {
+  color: #fff;
+  background: #d62518;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 0 3px 2px;
+  position: absolute;
+  border-radius: 2px;
+  white-space: nowrap;
+  content: attr(data-new);
+  border-bottom-left-radius: 0;
+  margin-left: 5px;
+  animation: blinker 1s linear infinite;
+}
+.news-description {
+  color: #8c8c8c;
+  text-align: justify;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

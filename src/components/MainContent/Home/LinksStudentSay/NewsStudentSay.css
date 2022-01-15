@@ -1,0 +1,55 @@
+.download-list {
+  list-style: none;
+  padding: 0;
+}
+.download-list li {
+  padding: 10px;
+  margin: 10px 0;
+  font-weight: 500;
+  border-bottom: 1px dashed #d3d3d3;
+}
+
+.download-list li a {
+  color: #fff;
+  font-style: oblique;
+  font-weight: 600;
+}
+
+.category-date {
+  font-weight: normal;
+  font-size: 0.75rem;
+  color: #e6dfdf;
+  margin-left: 17px !important;
+}
+
+.student-say-carousal {
+  min-height: 280px;
+  padding: 15px;
+}
+
+.student-say-carousal .carousel-caption {
+  position: static;
+}
+
+.student-say-carousal .carousel-caption p {
+  text-align: justify;
+  font-size: 1rem;
+  color: #808080;
+}
+.student-say-carousal .carousel-caption h4,
+.student-say-carousal .carousel-caption h5 {
+  text-align: right;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-style: italic;
+  color: gray;
+  margin: 0;
+}
+.student-say-carousal .carousel-caption h5 {
+  font-size: 0.7rem;
+}
+
+.no-upcoming-events {
+  color: white;
+  background-color: #ffc107 !important;
+}

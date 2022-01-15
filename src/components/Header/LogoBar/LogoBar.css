@@ -1,0 +1,57 @@
+.logo-bar .logo-bar-row {
+  padding: 10px 20px;
+}
+.inner-addon {
+  position: relative;
+  margin-top: 10px;
+}
+
+.inner-addon .icon-search {
+  position: absolute;
+  pointer-events: visible;
+}
+
+.right-addon .icon-search {
+  right: 10px;
+  top: 28%;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: #696565;
+}
+.right-addon input {
+  padding-right: 30px;
+  background-color: #fff;
+  border: 1px solid #c0c0c0;
+  height: 46px;
+  padding: 8px 17px;
+  width: 100%;
+  outline: none;
+  border-radius: 0;
+}
+.right-addon input:focus {
+  border: 1px solid #c0c0c0;
+}
+.logobar-mail-box {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.mailbox-text {
+  margin: 0 5px;
+}
+.ltext {
+  font-size: 0.9rem;
+  color: #696565;
+}
+
+@media only screen and (max-width: 576px) {
+  .logobar-mail-box {
+    margin-top: 10px !important;
+  }
+  .logobar-mail-box svg {
+    font-size: 1rem;
+  }
+  .logo-bar .logo-bar-row {
+    padding: 0;
+  }
+}

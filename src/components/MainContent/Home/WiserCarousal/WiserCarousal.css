@@ -1,0 +1,38 @@
+.wiser-carousal .carousel-caption {
+  transform: translateY(-50%);
+  bottom: 30% !important;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.wiser-carousal .carousel-control-next-icon,
+.wiser-carousal .carousel-control-prev-icon {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.wiser-carousal img {
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 576px) {
+  .wiser-carousal img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .wiser-carousal .carousel-caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .wiser-carousal .carousel-caption p {
+    font-size: 12px;
+  }
+  .wiser-carousal .carousel-caption {
+    transform: none;
+    bottom: 1.2rem !important;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.45);
+  }
+}

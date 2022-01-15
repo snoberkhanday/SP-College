@@ -1,0 +1,73 @@
+.footer {
+  background-color: #052260;
+  color: #fff;
+}
+
+.footer .footer-container .column1 img {
+  width: auto;
+}
+.footer .footer-container .column1 .tg-infolist {
+  list-style-type: none;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+.footer .footer-container .column1 .tg-infolist li {
+  margin: 5px auto;
+}
+.footer .footer-container .column1 .tg-infolist li svg {
+  margin-right: 8px;
+}
+.footer .footer-container .column1 .tg-infolist li a {
+  color: #fff;
+}
+.important-links .line-bottom-links {
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+.important-links .line-bottom-links::after {
+  border-radius: 10px;
+  bottom: -1px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 50px;
+  background-color: #fff;
+}
+.important-links .footer-links {
+  padding: 0;
+  list-style: none;
+}
+.important-links .footer-links li a {
+  color: #fff;
+}
+
+.important-links .footer-links li a:hover {
+  color: #267264 !important;
+}
+.important-links .footer-links li a svg {
+  margin-right: 8px;
+}
+
+.iframe-div iframe {
+  width: 340px;
+  overflow: hidden;
+}
+
+.bottom-footer {
+  color: #fff;
+  padding: 20px;
+}
+.bottom-footer a {
+  color: #fff;
+}
+@media only screen and (max-width: 576px) {
+  .iframe-div iframe {
+    width: 100%;
+    overflow: hidden;
+  }
+  .bottom-footer p {
+    text-align: center !important;
+  }
+}

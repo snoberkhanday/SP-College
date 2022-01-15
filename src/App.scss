@@ -1,0 +1,170 @@
+/* custom.scss */
+//$primary: #1e90ff;
+$primary: #0033a0;
+$secondary: #8f5325;
+$success: #145030;
+$info: #4d329c;
+$warning: #b8c924;
+$danger: #d62518;
+$light: #f8f9fa;
+$dark: #343a40;
+/* end custom.scss */
+@import "~bootstrap/scss/bootstrap";
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+#root p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-size: 0.9rem;
+}
+a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.text-justify {
+  text-align: justify;
+}
+// colors
+.btn {
+  color: #fff;
+}
+.sp-navbar-green {
+  background-color: $primary;
+}
+.download-list li {
+  background-color: $primary;
+}
+.bottom-footer {
+  background-color: $primary;
+}
+.section-row h3 span,
+.section-row .h3 span {
+  color: $primary;
+}
+// end colors
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(70, 68, 68, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(168, 168, 168, 0.8);
+  -webkit-box-shadow: inset 0 0 6px rgba(51, 50, 50, 0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(128, 123, 123, 0.4);
+}
+// Scroll bar end
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1170px !important;
+  }
+}
+.btn {
+  border-radius: 0 !important;
+  box-shadow: 0px 3px 3px grey !important;
+}
+
+// Section Row
+.section-wrapper {
+  background-color: #f9f9f9 !important;
+  padding: 1px 0;
+}
+.section-row img {
+  width: 100% !important;
+  height: 200px;
+  object-fit: cover;
+}
+
+.section-row .line-bottom {
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.section-row h3 {
+  font-weight: 600;
+}
+
+.section-row .line-bottom::after {
+  border-radius: 10px;
+  bottom: -1px;
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  width: 50px;
+  background-color: $primary;
+}
+.logobar-mail-box {
+  color: $primary;
+}
+.row-section {
+  margin-bottom: 10px;
+}
+
+// Section row end
+
+.Department-departmentheading {
+  background-color: $primary;
+}
+
+.iqacPage-tabs .active {
+  background-color: $primary !important;
+}
+
+
+.CCollegeService-ServiceData table tr:first-child {
+  background-color: $primary;
+  color: $light;
+}
+
+
+.IqacPage-pageNumber:hover {
+  background-color: $primary !important;
+  color: white !important;
+}
+
+.iqacPage-download-btn:hover {
+  background-color: $primary;
+  color: white;
+}
+
+
+.news-list li a:hover {
+  color: $primary;
+}
+
+
+.galleryPage-galleryItem:hover>span {
+  color: $primary !important;
+  text-decoration: underline !important;
+}
+
+.galleryContent-closeIcon {
+  color: $light;
+}

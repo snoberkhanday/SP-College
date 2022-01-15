@@ -1,0 +1,88 @@
+.Aboutpage_about {
+  position: absolute;
+  top: 1%;
+  left: 12.5%;
+  color: white;
+  width: 100%;
+}
+
+.about-us-breadcrumb-heading {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.Aboutpage_image {
+  position: relative;
+}
+
+.Aboutpage_links {
+  position: absolute;
+  top: 55%;
+}
+
+.Aboutpage_links a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.Aboutpage_description h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.Aboutpage_description {
+  text-align: justify;
+  line-height: 1.7;
+  font-size: 14px;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+/* .Aboutpage_picture {
+  float: right;
+  margin: 0 0 0 20px;
+} */
+
+.Aboutpage_logoswrapper {
+  background: #f1f1f1;
+  margin-bottom: 50px;
+}
+
+.Aboutpage_logoswrapper img:hover {
+  background: #f7f7f7;
+}
+
+.Aboutpage_aims h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.Aboutpage_aims p {
+  text-align: justify;
+  font-weight: 500;
+}
+
+.Aboutpage_aims span {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Aboutpage_lastbutton {
+  margin-bottom: 100px;
+}
+
+@media only screen and (min-width: 700px) {
+  .Aboutpage_about {
+    position: absolute;
+    top: 4%;
+    left: 12.5%;
+    color: white;
+  }
+
+  .about-us-breadcrumb-heading {
+    font-weight: bold;
+    font-size: 34px;
+  }
+}
